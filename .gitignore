@@ -1,0 +1,49 @@
+myworld/
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Django migrations
+*/migrations/*.pyc
+*/migrations/*.py
+*/migrations/__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore static files (optional, unless you track them manually)
+staticfiles/
+media/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore MacOS system files (optional if using macOS)
+.DS_Store
+
+# Ignore coverage and testing results
+htmlcov/
+*.cover
+*.coverage
+.cache
+
+# Ignore any node modules (if using frontend tools like npm)
+node_modules/
+
+# Ignore Heroku and deployment-related files (optional, if not tracking them)
+*.env.production
